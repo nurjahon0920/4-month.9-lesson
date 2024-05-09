@@ -15,19 +15,20 @@ displayObj({
 });
 */
 //////////*Object-2*//////////
-let n = +prompt("Please enter number: ");
-let kv = 1;
-function displayObj(obj) {
+/*
+function kv(n) {
+  let result = {};
   for (let i = 1; i <= n; i++) {
-    kv = i ** 2;
-    console.log(kv);
-    // displayObj({
-    //   i: kv,
-    // });
+    result[i] = i ** 2;
   }
+  console.log(result);
+  // return result;
 }
-
+let n = +prompt("Son kiriting");
+console.log(kv(n));
+*/
 //////////*Object-3*//////////
+
 //////////*Object-4*//////////
 //////////*Object-5*//////////
 //////////*Object-6*//////////
