@@ -28,7 +28,23 @@ let n = +prompt("Son kiriting");
 console.log(kv(n));
 */
 //////////*Object-3*//////////
-
+/*
+function kv(n) {
+  let result = {};
+  for (let i = 1; i <= n; i++) {
+    result[i] = i ** 2;
+    objectKeys = objectKeys + i;
+    objectValues = objectValues + i ** 2;
+  }
+  return result;
+}
+let n = +prompt("Son kiriting");
+let objectKeys = 0;
+let objectValues = 0;
+console.log(kv(n));
+console.log(objectKeys);
+console.log(objectValues);
+*/
 //////////*Object-4*//////////
 //////////*Object-5*//////////
 //////////*Object-6*//////////
