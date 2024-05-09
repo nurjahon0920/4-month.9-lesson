@@ -47,7 +47,7 @@ console.log(objectValues);
 */
 //////////*Object-4*//////////
 /*
-let name = ["Sultonqul", "Nurjahon", "Ulug'bek"];
+let name = ["Sultonqul", "Safarmurod", "O'rol","Jahongir"];
 for (let i = 0; i <= name.length; i++) {
   Obj = {};
   Obj[name[i]] = name[i].length;
