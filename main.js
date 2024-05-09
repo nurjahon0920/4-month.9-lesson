@@ -46,13 +46,14 @@ console.log(objectKeys);
 console.log(objectValues);
 */
 //////////*Object-4*//////////
-// let name = ["Sultonqul", "Nurjahon", "Ulug'bek"];
-// for (let i = 0; i <= name.length; i++) {
-//   Obj = {};
-//   Obj[name[i]] = name[i].length;
-//   console.log(Obj);
-// }
-
+/*
+let name = ["Sultonqul", "Nurjahon", "Ulug'bek"];
+for (let i = 0; i <= name.length; i++) {
+  Obj = {};
+  Obj[name[i]] = name[i].length;
+  console.log(Obj);
+}
+*/
 //////////*Object-5*//////////
 /*
 let fruits = {
@@ -65,7 +66,27 @@ let javob = Object.values(fruits).reduce((a, b) => a + b, 0);
 console.log(javob);
 */
 //////////*Object-6*//////////
+
 //////////*Object-7*//////////
+
 //////////*Object-8*//////////
+
 //////////*Object-9*//////////
+
 //////////*Object-10*/////////
+/*
+function countOccurrences(arr) {
+  let result = {};
+  for (let i = 0; i < arr.length; i++) {
+    let num = arr[i];
+    if (result[num]) {
+      result[num]++;
+    } else {
+      result[num] = 1;
+    }
+  }
+  return result;
+}
+let inputArray = [7, 8, 5, 4, 7, 5, 4, 8, 5, 4, 7, 9];
+console.log(countOccurrences(inputArray));
+*/
