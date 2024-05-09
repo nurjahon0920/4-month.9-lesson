@@ -46,6 +46,16 @@ console.log(objectKeys);
 console.log(objectValues);
 */
 //////////*Object-4*//////////
+function stringLength(n) {
+  let result = {};
+  for (let i = 1; i <= n; i++) {
+    result[i] = i;
+  }
+  console.log(result);
+  // return result;
+}
+let n = +prompt("Son kiriting");
+console.log(kv(n));
 //////////*Object-5*//////////
 //////////*Object-6*//////////
 //////////*Object-7*//////////
